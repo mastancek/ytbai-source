@@ -1,0 +1,45 @@
+{
+  "paths": {
+    "music_dir": "~/Music/YouTube",
+    "cache_dir": "~/.ytbai/cache",
+    "logs_dir": "~/.ytbai/logs"
+  },
+  "ai_chat": {
+    "language": "cs",
+    "last_service": null,
+    "last_model": null
+  },
+  "theme": "tokyo-night",
+  "icon_set": "emoji",
+  "audio": {
+    "quality": "192k",
+    "sample_rate": 44100,
+    "bitrate_type": "vbr",
+    "normalization": {
+      "enabled": true,
+      "target_level": -16.0,
+      "true_peak": -1.0
+    }
+  },
+  "conversion": {
+    "output_format": "mp3",
+    "keep_original": false
+  },
+  "metadata": {
+    "cover_art": true,
+    "cover_size": "300x300",
+    "jpeg_quality": 90,
+    "auto_tags": true
+  },
+  "cache": {
+    "max_size": 1000,
+    "ttl_days": 30,
+    "auto_clean": true
+  },
+  "spotify": {
+    "client_id": "",
+    "client_secret": "",
+    "quality": "320k",
+    "prefer_spotify": true
+  }
+}
